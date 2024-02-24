@@ -5,4 +5,5 @@ togel.addEventListener("click", function(){
     navigasi.classList.toggle("active");
 });
 
-// alert("Welcome");
+// Pop Up
+

@@ -5,22 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Personal Portfolio</title>
-    <!-- My Css -->
-    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="stylesheet" href="css/style.css" />
 
-    <!-- Font Style -->
+    <!-- link font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Link Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,100;1,700&display=swap"
       rel="stylesheet"
     />
-
-    <!-- Icon Feather -->
-    <script src="https://unpkg.com/feather-icons"></script>
   </head>
   <body>
-    <!-- Navigasi start -->
+    <!-- Navigasi section start -->
     <nav>
       <div class="navbar-logo">
         <a href="">PORTFO<span>LIO</span></a>
@@ -28,10 +33,10 @@
 
       <ul>
         <li>
-          <a href="#home"> <i data-feather="home"></i></a>
+          <a href="#home"><i class="fa-solid fa-house"></i></a>
         </li>
         <li><a href="#about">About</a></li>
-        <li><a href="#hobi">Hobi</a></li>
+        <li><a href="#hobby">Hobby</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
 
@@ -42,7 +47,7 @@
         <span></span>
       </div>
     </nav>
-    <!-- Navigasi end -->
+    <!-- Navigasi section end -->
 
     <!-- Hero section start -->
     <section class="hero" id="home">
@@ -51,12 +56,10 @@
           SELA<span>MAT</span> DATANG <span>DI</span> PORTFO<span>LIO</span>
           SAYA
         </h2>
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio
-          aut beatae quos!Lorem ipsum dolor sit amet consectetur adipisicing
-          elit. Quas, aliquid!
-        </p>
-        <a class="cta" href="#hobi">Let's Join</a>
+        <p>INI MERUPAKAN LAMAN WEBSITE PORTFOLIO SEDERHANA RESMI SAYA</p>
+        <a href="https://instagram.com/angga_dwinnd" target="_blank" class="cta"
+          >Follow me</a
+        >
       </div>
     </section>
     <!-- Hero section end -->
@@ -66,68 +69,79 @@
       <h2>TENTANG <span>SAYA</span></h2>
 
       <div class="about-content">
-        <img src="JPG/drew-saurus-C7jBZEGciCU-unsplash.jpg" alt="" />
+        <img
+          src="jpg/drew-saurus-C7jBZEGciCU-unsplash.jpg"
+          alt=""
+          class="img"
+        />
 
-        <div class="about-content-ket">
+        <div class="about-text">
           <h3><span>DWI</span> ANGGA</h3>
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias quam
-            cupiditate accusantium harum enim recusandae autem dolore optio
-            maiores repudiandae.
-          </p>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore,
-            commodi officia voluptates odit similique magnam?
+            Hallo perkenalkan nama saya I Kadek Dwi Angga Sathya Nanda, bisa
+            dipanggil Angga. Saya lahir di Ngis, Abang, Karangasem, Bali 02
+            September 2003. Sekarang saya merupakan seorang mahasiswa semester
+            II dengan mengambil program studi SI (Sistem Informasi) Jurusan TI
+            (Teknik Informatika) Universitas Pendidikan Ganesha.
           </p>
         </div>
       </div>
     </section>
     <!-- About section end -->
 
-    <!-- Service section start -->
-    <section class="hobi" id="hobi">
+    <!-- Hobby section start -->
+    <section class="hobby" id="hobby">
       <h2><span>HOBI</span> SAYA</h2>
-      <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse,
-        voluptatem!
-      </p>
+      <p>Beberapa hobi saya yang sering dan kadang saya lakukan</p>
 
-      <div class="hobi-content">
-        <div class="hobi-cart">
-          <img src="JPG/daniel-korpai-hbTKIbuMmBI-unsplash.jpg" alt="" />
-          <h3>SERVICE 1</h3>
+      <div class="hobby-content">
+        <div class="hobby-cart">
+          <img
+            src="jpg/jeshoots-com-eCktzGjC-iU-unsplash.jpg"
+            alt="game"
+            class="img"
+          />
+          <p>-- Game --</p>
         </div>
-        <div class="hobi-cart">
-          <img src="JPG/daniel-korpai-hbTKIbuMmBI-unsplash.jpg" alt="" />
-          <h3>SERVICE 1</h3>
+        <div class="hobby-cart">
+          <img src="jpg/images.jpeg" alt="gitar" class="img" />
+          <p>-- Gitar --</p>
         </div>
-        <div class="hobi-cart">
-          <img src="JPG/daniel-korpai-hbTKIbuMmBI-unsplash.jpg" alt="" />
-          <h3>SERVICE 1</h3>
+        <div class="hobby-cart">
+          <img
+            src="jpg/edgar-chaparro-sHfo3WOgGTU-unsplash.jpg"
+            alt="sport"
+            class="img"
+          />
+          <p>-- Olahraga --</p>
         </div>
-        <div class="hobi-cart">
-          <img src="JPG/daniel-korpai-hbTKIbuMmBI-unsplash.jpg" alt="" />
-          <h3>SERVICE 1</h3>
+        <div class="hobby-cart">
+          <img
+            src="jpg/kate-stone-matheson-uy5t-CJuIK4-unsplash.jpg"
+            alt="tidur"
+            class="img"
+          />
+          <p>-- Tidur --</p>
         </div>
-        <div class="hobi-cart">
-          <img src="JPG/daniel-korpai-hbTKIbuMmBI-unsplash.jpg" alt="" />
-          <h3>SERVICE 1</h3>
-        </div>
-        <div class="hobi-cart">
-          <img src="JPG/daniel-korpai-hbTKIbuMmBI-unsplash.jpg" alt="" />
-          <h3>SERVICE 1</h3>
+        <div class="hobby-cart">
+          <img
+            src="jpg/alexander-shatov-niUkImZcSP8-unsplash.jpg"
+            alt="nontot youtube"
+            class="img"
+          />
+          <p>-- YouTube'an --</p>
         </div>
       </div>
     </section>
-    <!-- Service section end -->
+    <!-- Hobby section end -->
 
     <!-- Contact section start -->
     <section class="contact" id="contact">
       <h2>KONTAK <span>SAYA</span></h2>
 
-      <div class="isi">
+      <div class="contact-content">
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3947.153745565765!2d115.61507831488657!3d-8.386534686907535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zOMKwMjMnMTEuNSJTIDExNcKwMzcnMDIuMiJF!5e0!3m2!1sid!2sid!4v1675981984610!5m2!1sid!2sid"
+          src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3947.153745565765!2d115.61507831488657!3d-8.386534686907535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zOMKwMjMnMTEuNSJTIDExNcKwMzcnMDIuMiJF!5e0!3m2!1sid!2sid!4v1676428022527!5m2!1sid!2sid"
           width="600"
           height="450"
           style="border: 0"
@@ -135,19 +149,20 @@
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
         ></iframe>
-        <div class="ket">
-          <div class="border">
-            <p>No Hp : 082236903868</p>
-          </div>
-          <div class="border">
-            <p>NIM : 2215091060</p>
-          </div>
-          <div class="border">
-            <p>Alamat Asal : Br Dinas Ngis Kaler Tribuana Abang</p>
-          </div>
-          <div class="border">
-            <p>Alamat Sekarang : Br Dinas Ngis Kaler Tribuana Abang</p>
-          </div>
+        <div class="contact-info">
+          <p><i class="fa-solid fa-phone"></i> No Hp : 082236903868</p>
+          <p>
+            <i class="fa-solid fa-envelope"></i> Email : anggadek857@gmail.com
+          </p>
+          <p>
+            <i class="fa-solid fa-location-dot"></i> Alamat Asal : Br Dinas Ngis
+            Kaler Desa Tribuana Abang Karangasem Bali
+          </p>
+          <p>
+            <i class="fa-solid fa-location-dot"></i> Alamat Sekarang : Jl. Pratu
+            Ginten I Gg. Delima No.9, Lingkungan Sangket, Kec. Sukasada,
+            Kabupaten Buleleng, Bali 81161
+          </p>
         </div>
       </div>
     </section>
@@ -156,28 +171,35 @@
     <!-- Footer section start -->
     <footer>
       <ul>
-        <li><a href=""><i data-feather="instagram"></i></a></li>
-        <li><a href=""><i data-feather="youtube"></i></a></li>
-        <li><a href=""><i data-feather="twitter"></i></a></li>
+        <li>
+          <a href="https://instagram.com/angga_dwinnd" target="_blank"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://wa.me/+6282236903868" target="_blank"
+            ><i class="fa-brands fa-whatsapp"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://t.me/dwianggananda" target="_blank"
+            ><i class="fa-brands fa-telegram"></i
+          ></a>
+        </li>
       </ul>
 
       <ul>
         <li><a href="#home">Home</a></li>
         <li><a href="#about">About</a></li>
-        <li><a href="#hobi">Hobi</a></li>
+        <li><a href="#hobby">Hobby</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
 
-      <small> CopyRight &copy; Dwi Angga 2023</small>
+      <small>CopyRight &copy; DwiAngga 2023</small>
     </footer>
     <!-- Footer section end -->
 
-    <!-- My JavaScript -->
-    <script src="JS/main.js"></script>
-
-    <!-- My Feather JS -->
-    <script>
-      feather.replace();
-    </script>
+    <!-- My Js -->
+    <script src="js/main.js"></script>
   </body>
 </html>
